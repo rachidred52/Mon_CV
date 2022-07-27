@@ -1,0 +1,200 @@
+---
+title: "Curriculum vitae"
+author: OUOROU Rachidou
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+knit: pagedown::chrome_print
+---
+ 
+Aside
+================================================================================
+
+
+```{r eval=FALSE, include=FALSE}
+#![OUOROU Rachidou](identit.jpg){width=75%}
+
+```
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> rachidred52@gmail.com
+- <i class="fa fa-phone"></i> +33 601023563
+- <i class="fa-thin fa-house"></i> 14 Residence Sévigne Clichy Sous Bois
+- Date de naissance : 27/04/1999
+
+
+Centres d'intérêt {#interert}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-book-open"></i> **Data-Sciences** 
+
+- <i class="fa fa-book-open"></i> **Data-analyse**
+
+- <i class="fa fa-book-open"></i> **Biostatistique**
+
+- <i class="fa fa-book-open"></i> **Recherche clinique**
+
+- <i class="fa fa-book-open"></i> **Machine learning**
+
+
+
+Compétences {#skills}
+--------------------------------------------------------------------------------
+
+### Programmation
+
+**R**, **Python**, **SQL**, **Scala**
+
+
+### Statistiques
+
+**Tests statistiques**, **Régressions (linéaires, généralisées**), **Série temporelles**
+
+
+### Machine learning
+
+**Algorithme de classification non supervisée (CAH, K-means, ....)**, **Algorithme de classification supervisée (KNN, CART,  ....)**
+
+
+### Biostatistique
+
+**Epidémiologie(Facteurs de risques, OR, RR, ...)**), **Génétique(Analyse de cohorte familiale, Association gène-Maladie,**), **Causalité**
+
+
+
+
+
+Main
+================================================================================
+
+Rachidou OUOROU {#title}
+--------------------------------------------------------------------------------
+
+### Actuellement à la recherche d'un stage biostatistique
+
+
+**Education** {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Université de Paris Cité
+
+Master 1 Ingénierie Mathématique et biostatistique
+
+Paris, France
+
+2021 - En cours
+
+### Ecole Nationale de Statistique de Planification et de démographie
+
+Licence Statistique appliquée
+
+Parakou, Bénin
+
+2017 - 2020
+
+### Formation Certifiante 
+
+Cours en ligne (MOOC) 
+
+Openclassroom
+
+2020
+
+::: concise
+- Réalisez des modélisations performantes
+- Initiez-vous à la statistique inférentielle
+- Analysez et modélisez des séries temporelles
+- Initiez-vous au langage R pour analyser vos données
+- Réalisez des rapports statistiques clairs et impactants 
+:::
+
+
+
+**Experience de recherche (Projets)** {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Data visualisation
+
+Visualisation de la dynamique de population (Pyramide des âges)
+
+N/A
+
+2022
+
+::: concise
+- Reproduction de la pyramide historique de Francis Walker (Sur la population du Nebraska)
+- Amélioration de cette pyramide
+- Adaptation sur les données de la France (1980 - 2020)
+- Proposition d'autres graphes de visualisations de populations
+:::
+
+### Machine learning
+
+Programmation de l'algorithme des K-mean
+
+N/A
+
+2021
+
+
+
+
+### Data analyse
+
+Déterminant de la mortalité néonatale au Bénin
+
+N/A
+
+2020
+
+
+- Identifier les facteurs qui influence significativement la mortalité des enfants de moins d'1 mois.
+
+
+**Expérience professionnelle** {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Statisticien Stagiaire, CHU Départementale
+
+Stage réalisé dans le service Statistique du CHU de Parakou
+
+Parakou, Bénin
+
+2020
+
+::: concise
+- Conception de masque de saisie
+- Collecte de données  
+- Saisie et traitement de données
+- Participation à la rédaction du rapport annuel du CHU
+:::
+
+### Contrôleur, Boutique des sciences de l'université de Parakou
+
+Enquête ayant porté sur le thème : « les étudiants face à la gestion des salles de cours dans un contexte de mutualisation à l’Université de parakou : perceptions, enjeux et défis ».
+
+Parakou, Bénin
+
+2019
+
+::: concise
+- Supervision dans la mise en place du questionnaire et du masque de saisie 
+- Surpervision de la collecte et du traitement des données
+- Analyse et rédaction du rapport final
+:::
+
+
+
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+Dernière mise à jour le : `r Sys.Date()`.
+
