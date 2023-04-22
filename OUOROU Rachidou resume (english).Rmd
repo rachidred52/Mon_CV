@@ -1,0 +1,199 @@
+---
+title: "Curriculum vitae"
+author: OUOROU Rachidou
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+knit: pagedown::chrome_print
+---
+
+
+
+Aside
+================================================================================
+
+![OUOROU Rachidou](ident.jpeg){width=80%} 
+
+```{r eval=FALSE, include=FALSE}
+ # ![OUOROU Rachidou](ident.jpeg){width=80%} 
+
+```
+
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> rachidred52@gmail.com
+- <i class="fa fa-phone"></i> + 33 6 01 02 35 63
+- <i class="fa fa-house-window"></i> 46 Rue Victor Hugo, PANTIN, FRANCE 
+- Age : 24 years old
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+### Programming
+
+**R**, **Python**, **SAS**, **SQL**, 
+
+### Biostatistics
+
+- **Epidemiology (Survival analysis, Risk factors, OR, RR, ...)**, 
+- **Genetics (Family cohort analysis, Gene-disease association, differential gene expression)**,
+- **clinical research (sample size calculation, power of trial, vaccine efficacy, trial data analysis...)**
+
+### Statistics
+
+**Statistical tests**, **Regressions (linear, generalized, ordinal, penalized)**, **Time series**, **ACP**, **PLS**, **large dimensions** 
+
+
+### Machine learning 
+
+- **Unsupervised classification algorithm (CAH, K-means, ...)**, 
+- **Supervised classification algorithm (KNN, CART,random forest, ....)**, 
+- **Cross-validation**, **bootstrap**, **bagging**, **etc...**
+
+
+
+
+
+
+Main
+================================================================================
+
+Rachidou OUOROU {#title}
+--------------------------------------------------------------------------------
+
+**Professional experience** {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Biostatistics Internship
+
+Institut Pierre Louis d'Epidémiologie et de Santé Publique 
+
+Paris, France
+
+2023 - Now
+
+- Data analysis of the first year of a clinical trial in Mali (vaccine efficacy, immune response, identification of good response characteristics according to antibodies production after vaccination, )
+- Participation in the preparation of the implementation of a clinical trial in phase 2B (statistical informations)
+- Study of the importance of Procalcitonin in the prediction of imported falciparum malaria in children
+- Study of the impact of using Mosquito net on the malaria incidence in Benin country
+
+
+
+### Data analyst 
+
+Data analyst consultant on various medical thesis research topics 
+
+Parakou, Bénin
+
+2021
+
+
+- Maternal-fetal prognosis and risk factors for childbirth in adolescents
+- Contribution of medical imaging in the diagnosis of acute abdominal pain
+- Study of deafness linked to the noise of crushing mills
+
+
+### Intern Statistician, Departmental University Hospital
+
+Internship in the Statistics Department of the University Hospital of Parakou
+
+Parakou, Bénin
+
+2020
+
+::: concise
+- Input mask design
+- Data gathering
+- Data entry and processing
+- Participation in the drafting of the annual report of the CHU
+:::
+
+
+**Research Experience (Projects)** {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Articles analysis
+
+Understanding of the methods used, identification of results and reviews
+
+N/A
+
+N/A
+
+
+- Prevalence Odd Ratio or Prevalence Ratio in cross-sectional data analyzes (Mary Lou Thompson, J E Myers, D Kriebel)
+- Number of response categories in ordered-response models (Maria Iannario, Anna Clara Monti)
+
+
+### Data analyse
+
+Academic projects: These projects can be found on my [github page](https://github.com/rachidred52)
+
+N/A
+
+N/A
+
+
+- Determinants of neonatal mortality in Benin (End of license dissertation)
+- Non-parametric method in survival analysis (**diabetic** data)
+- Classification of cell lines into cancer type (**NCI60** data)
+- Differential expression (data **prostate cancer**)
+- Text mining to create a copy of cémantix game : [link of the true game](https://cemantix.certitudes.org/)
+
+### Data visualisation
+
+Visualization of population dynamics (Age pyramid)
+
+N/A
+
+N/A
+
+::: concise
+- Reproduction, improvement and actualisation of the first age pyramid by Francis Walker
+- Shiny application 
+- Cartography
+:::
+
+
+
+**Education** {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+
+### Université Paris Cité
+
+Master 2 Mathematical Engineering and Biostatistics
+
+Paris, France
+
+2021 - Now
+
+### Ecole Nationale de Statistique de Planification et de démographie
+
+Applied Statistics bachelor degree
+
+Parakou, Bénin
+
+2017 - 2020
+
+
+
+**Hobbies** 
+------------------------------------------------------
+
+### Favourite activities
+
+- Football
+- Japanese culture
+- Reading
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+Last update on: `r Sys.Date()`.
